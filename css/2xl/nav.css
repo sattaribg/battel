@@ -1,0 +1,196 @@
+nav {
+  width: 100%;
+  margin-top: 10px;
+  top: 0;
+  z-index: 997;
+}
+nav > div.row {
+  height: 55px;
+  width: 100%;
+}
+
+.balance {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-button {
+  height: inherit;
+  width: 100%;
+  font-family: noto;
+  font-size: 14px;
+  border: unset;
+  color: whitesmoke;
+  transition: 300ms;
+  border-radius: 4px;
+  background-color: #292b33;
+}
+.balance-button:hover {
+  color: white;
+  background-color: #3b3d42;
+  border-radius: 4px;
+}
+
+.balance-menu {
+  width: 20vw;
+  padding: 0px 8px;
+  box-sizing: border-box;
+}
+
+.balance-menu li {
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-menu li a {
+  display: flex;
+  height: 48px;
+  align-items: center;
+  column-gap: 4%;
+}
+
+form {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292b33;
+  padding: 0px 10px;
+}
+
+input[type="search"] {
+  border: none !important;
+  outline: none !important;
+  color: whitesmoke;
+}
+input[type="search"]::placeholder {
+  color: whitesmoke;
+}
+
+label {
+  font-size: 20px;
+  display: inline-block;
+  width: 7%;
+  border: unset !important;
+}
+
+.small-label {
+  width: 3%;
+}
+
+input[type="search"] {
+  border: none !important;
+  height: 56px;
+  width: 93%;
+  background-color: #292b33;
+  outline: unset !important;
+}
+
+.search-mediume {
+  z-index: 2;
+  font-size: 25px !important;
+  margin-left: 30%;
+}
+
+div.test-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+
+div.test-nav > a {
+  text-decoration: none;
+  font-family: noto;
+  font-size: 14px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.test-menu-6 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+
+.test-menu-5 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+.test-menu-4 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+
+.test-menu-3 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+.test-menu-2 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+.test-menu-1 {
+  width: 264px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  background-color: #292b33;
+}
+li.li-6 {
+  display: flex;
+  height: 56px;
+}
+
+li.li-6 > a {
+  font-size: 14px;
+  font-family: noto;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  height: 56px;
+}
+
+li.li-6 > a > svg {
+  margin-right: 5%;
+}
+
+li.li-6 > a > p,
+li.li-6-1 > a > p {
+  font-size: 12px;
+  font-family: noto;
+  font-weight: 400;
+  color: white;
+  margin-left: 17%;
+  margin-top: -2%;
+}
+
+.test-left {
+  background-color: #292b33;
+}
+
+.li-6-1 > a {
+  font-size: 13px;
+  font-family: noto;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  height: 56px;
+}
+.col-hovers:hover {
+  background-color: var(--bg-1);
+}

@@ -1,0 +1,36 @@
+
+.carousel-caption-xs{
+   
+    text-align: center !important;
+   position: absolute;
+   width: 100%;
+   bottom: 0%;
+}
+
+.xs-b{
+    padding:14px 38px !important;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    font-family: object;
+    width: 280px !important;
+    
+}
+
+.carus-xs{
+    font-family: object;
+    font-size: 14px;
+    width: 32px;
+    height: 24px !important;
+    box-sizing: border-box;
+    color: whitesmoke !important;
+    background-color: black !important;
+    top: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.xs-h-5{
+    font-family: object;
+    font-size: 14px;
+}

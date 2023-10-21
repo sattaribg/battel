@@ -1,0 +1,83 @@
+.swiper-height {
+  height: 760px;
+}
+
+.extra {
+  width: 25%;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+.extra-h5 {
+  font-size: 14px !important;
+}
+.extra-1 {
+  width: 25%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.extra-2 {
+  width: 25%;
+  position: absolute;
+  top: 0%;
+  left: 15%;
+}
+.extra-3 {
+  width: 25%;
+  position: absolute;
+  top: 7%;
+  left: 15%;
+}
+
+.carousel-caption {
+  height: 50%;
+  position: absolute;
+  top: 40%;
+}
+
+.title-swiper {
+  color: white;
+  z-index: 5;
+  width: 20%;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: object;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.swiper-button {
+  height: 52px;
+  width: 35%;
+  padding: 14px 38px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: object;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 30px;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+}
+
+.carus-small {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  color: black !important;
+  background-color: black !important;
+  top: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}

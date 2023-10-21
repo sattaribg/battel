@@ -1,0 +1,70 @@
+.recom{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: object; 
+    z-index: 6;
+   margin-top: 150px;
+}
+
+.height-recommend{
+    height: 450px !important;
+    position: relative;
+}
+
+.passage-1{
+    font-size: 12px;
+    font-family: object;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.passage-2{
+    font-size: 18px;
+    font-family: object;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.passage-3{
+    color: rgb(255, 180, 0);
+    font-size: 14px;
+    font-family:noto;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.passage-4{
+    font-size: 12px;
+    font-family:noto;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.passage-5{
+    font-size: 16px;
+    font-family:noto;
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    
+}
+
+.card-body{
+    transform: translateY(0px);
+    transition: 300ms;
+}
+
+.card-body:hover{
+    background-color: var(--bg-1);
+    transform:translateY(-8%);
+
+}
+
+.trend{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: object;
+    color: white;
+}

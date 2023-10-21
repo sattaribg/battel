@@ -1,0 +1,72 @@
+
+.adventure{
+  height: 570px;
+  background-image: url(../../images/adventure/1.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 40px;
+  box-sizing: border-box;
+}
+
+.h2-adventure{
+    font-size:42px;
+    font-family: object;
+    font-weight: 500;
+    color: white;
+    line-height:47px;
+}
+
+.h3-adventure{
+    font-size:18px;
+    font-family: object;
+    font-weight: 400;
+    line-height:47px;
+}
+.anchor{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+   width: 85%;
+}
+.a-adventure{
+ 
+    font-family: object;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 0px 3%;
+   box-sizing: border-box;
+    height:69px;
+    column-gap: 8px;
+    width: 60%;
+    transition: 300ms;
+}
+.a-adventure:hover{
+    border: 1px solid white;
+}
+
+.a-2-adventure{
+   
+    font-family: object;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 0px 3%;
+   box-sizing: border-box;
+    height:69px;
+    column-gap: 8px; 
+    width: 35%;
+    transition: 300ms;
+}
+
+.a-2-adventure:hover{
+    border: 1px solid white;
+}
+
+.p-adventure{
+    width: 80%;
+}

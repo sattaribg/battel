@@ -1,0 +1,75 @@
+.small-height{
+    width: 100%;
+    height:360px !important;
+  
+}
+
+
+.extra-h5-small{
+    font-size: 14px !important;
+}
+.extra-small{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+
+.carousel-caption-small{
+    height: 40%;
+    position: absolute;
+    top: 38%;
+   left: 30%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: start;
+
+} 
+
+
+.extra-h5-small{
+    
+    color: white;
+    z-index: 5;
+   width: 30%;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: object;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+ 
+  
+    
+}
+a.xs-b{
+    width: 50% !important;
+    font-size: 8px;
+}
+
+.swiper-button-small{
+    height: 52px;
+    width: 10%;
+    padding:14px 38px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: object;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  
+width: 40px;
+height: 80px ;
+box-sizing: border-box;
+color: white;
+background-color:black;
+
+}

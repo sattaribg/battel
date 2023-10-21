@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-1: #3b3d42;
+  --bg-2: #292b33;
+}
+@font-face {
+  font-family: noto;
+  src: url(../fonts/Noto/NotoSans.ttf);
+}
+@font-face {
+  font-family: bilzzard;
+  src: url(../fonts/Bilzzard/Blizzard-Regular.ttf);
+}
+
+@font-face {
+  font-family: object;
+  src: url(../fonts/object-sans/ObjectSans-Bold.ttf);
+}
+
+.wrapper {
+  width: 100%;
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 5px;
+  height: 5px;
+}
+
+.darks {
+  background-color: var(--bg-2) !important;
+  color:  black !important;
+}
+

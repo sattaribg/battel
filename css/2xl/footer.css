@@ -1,0 +1,95 @@
+
+.footer{
+    height: 650px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.footer-main{
+ 
+    height:600px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.languages>a{
+    font-weight: 400;
+    font-family:bilzzard;
+    display: block;
+    height: 24px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.languages>a:hover{
+    color:white;
+}
+.modal-body{
+    height:293px;
+    padding: 10px; 
+    box-sizing: border-box;
+    
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+.left,.right{
+    width: 30%;
+    height: 280px;
+    border-right: .1px solid ;
+    padding-left: 3%;
+}
+.center{
+    width: 40%;
+    height: 280px;
+   padding-left: 5%;
+}
+.left>h2, .center>h2{
+    font-size: 13px;
+    font-family: bilzzard;
+    font-weight:400 ;
+}
+.left>p, .center>p, .m-right>p{
+    font-size: 14px;
+    font-family: bilzzard;
+    transition: 300ms;
+    cursor: pointer;
+}
+.left>p:hover, .center>p:hover, .m-right>p:hover{
+    color: white;
+}
+.mores{
+    width: 100%;
+    
+    text-align:center ;
+}
+.mores>span, .last-more>span{
+    display: inline-block;
+    font-size: 16px;
+    font-family: bilzzard;
+    cursor: pointer;
+    margin-right:2px;
+    transition: 300ms;
+
+}
+
+.end-passage-1{
+    width: 100%;
+    text-align: center;
+
+}
+
+.topbutton{
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding:10px;
+    box-sizing: border-box;
+    line-height: 14px;
+    background-color: var(--bg-1);
+    position: sticky;
+    bottom: 10%;
+    margin-left: auto;
+     right:3%;    
+}

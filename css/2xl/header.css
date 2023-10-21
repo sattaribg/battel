@@ -1,0 +1,143 @@
+
+
+
+.first {
+  box-sizing: border-box;
+  padding: 0px 16px !important;
+  width: 100%;
+  height: 48px;
+  margin-top: 16px;
+ 
+  
+}
+.h-left {
+  height: 48px;
+}
+.h-left>a>svg{
+width: 200px;
+height: 48px;
+color: white;
+}
+
+.h-right {
+  height: 48px;
+  display: flex;
+  justify-content: end;
+}
+.h-specific-button {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  transition: 300ms;
+}
+.h-specific-button:hover {
+  background-color: #292b33;
+}
+.h-users {
+  color: white;
+  cursor: pointer;
+  font-family: object;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  border: unset;
+  background-color: transparent;
+}
+label.mood{
+  color: whitesmoke;
+}
+.under-menu {
+  height: 370px;
+ 
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+li.login {
+  width: 270px;
+  padding: 0px 12px ;
+  box-sizing: border-box;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+}
+li.login > a {
+  display: block;
+  height: 54px;
+  display: flex;
+  column-gap: 5%;
+  align-items: center;
+}
+
+.login-1 {
+  width: 95%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+li.login-1 > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-middle {
+  height: 48px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: object;
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: 10%;
+  transition: 300ms;
+}
+
+.h-middle:hover {
+  background-color: #292b33;
+}
+
+.h-middle > i {
+  font-size: 18px;
+}
+
+.h-right-left{
+    height: 48px;
+    padding: 0px 16px;
+    font-size: 17px;
+    font-family: object;
+    color: white;
+    display: flex;
+    align-items:center;
+    column-gap: 10px;
+   transition: 300ms;
+}
+
+.h-right-left:hover{
+    background-color: #292b33;
+}
+
+.moon{
+ height: 48px !important;
+
+line-height: 42px;
+}
+
+.moons{
+  margin-top: 15px;
+}
+
+.moon-2{
+  background-color: blue !important;
+ 
+}
+
